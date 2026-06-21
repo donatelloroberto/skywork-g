@@ -4,6 +4,6 @@
   "description": "SkyStream conversion of gayvn-cs CloudStream providers.",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/donatelloroberto/gayvn-cs/skystream/dist/plugins.json"
+    "https://raw.githubusercontent.com/donatelloroberto/skywork-g/refs/heads/main/dist/plugins.json"
   ]
 }
