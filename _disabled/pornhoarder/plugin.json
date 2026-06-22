@@ -1,0 +1,16 @@
+{
+  "packageName": "com.donatelloroberto.repo.pornhoarder",
+  "name": "Pornhoarder",
+  "version": 1,
+  "baseUrl": "https://example.com",
+  "description": "Pornhoarder plugin for GayXXX",
+  "authors": [
+    "Developer"
+  ],
+  "languages": [
+    "en"
+  ],
+  "categories": [
+    "Others"
+  ]
+}

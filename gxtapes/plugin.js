@@ -35,15 +35,14 @@
   function absoluteUrl(url, base) {
     if (!url) return "";
     let value = String(url).trim().replace(/&amp;/g, "&");
-    if (!value || value.startsWith("javascript:")) return "";
+    if (!value || value === "#" || value.startsWith("javascript:")) return "";
     if (value.startsWith("//")) return "https:" + value;
     if (/^https?:\/\//i.test(value)) return value;
-    const origin = (base || baseUrl()).replace(/\/$/, "").replace(/\/[^/]*$/, "");
-    if (value.startsWith("/")) {
-      const root = (base || baseUrl()).match(/^https?:\/\/[^/]+/i);
-      return (root ? root[0] : baseUrl()) + value;
+    try {
+      return new URL(value, base || baseUrl() + "/").toString();
+    } catch (_) {
+      return "";
     }
-    return origin + "/" + value;
   }
 
   async function fetchText(url, referer) {

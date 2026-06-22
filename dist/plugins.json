@@ -1,0 +1,106 @@
+[
+  {
+    "packageName": "com.donatelloroberto.repo.gxtapes",
+    "name": "G_Xtapes",
+    "version": 3,
+    "baseUrl": "https://gay.xtapes.in",
+    "description": "G_Xtapes SkyStream plugin converted from the CloudStream GXtapes provider. Includes homepage categories, search, metadata loading, recommendations, and extractor support for GXtapes, 88z.io, 44x.io, VID Xtapes, DoodStream and generic direct video links.",
+    "authors": [
+      "don"
+    ],
+    "languages": [
+      "en"
+    ],
+    "categories": [
+      "NSFW"
+    ],
+    "domains": [
+      {
+        "name": "G_Xtapes",
+        "url": "https://gay.xtapes.in"
+      },
+      {
+        "name": "VID Xtapes",
+        "url": "https://vid.xtapes.in"
+      },
+      {
+        "name": "GXtapes CDN",
+        "url": "https://74k.io/e/"
+      },
+      {
+        "name": "88z.io",
+        "url": "https://88z.io"
+      },
+      {
+        "name": "44x.io",
+        "url": "https://vi.44x.io"
+      },
+      {
+        "name": "DoodStream",
+        "url": "https://doodstream.com"
+      }
+    ],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=gay.xtapes.in&sz=%size%",
+    "url": "https://raw.githubusercontent.com/donatelloroberto/gayvn-cs/skystream/dist/com.donatelloroberto.repo.gxtapes.sky"
+  },
+  {
+    "packageName": "com.donatelloroberto.repo.nurgay",
+    "name": "Nurgay",
+    "version": 3,
+    "baseUrl": "https://nurgay.to",
+    "description": "Nurgay SkyStream plugin converted from CloudStream source. NSFW provider with mirror extraction support.",
+    "authors": [
+      "don"
+    ],
+    "languages": [
+      "en"
+    ],
+    "categories": [
+      "NSFW"
+    ],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=nurgay.to&sz=%size%",
+    "domains": [
+      {
+        "name": "Nurgay",
+        "url": "https://nurgay.to"
+      },
+      {
+        "name": "ListMirror",
+        "url": "https://listmirror.com"
+      },
+      {
+        "name": "Voe",
+        "url": "https://jilliandescribecompany.com"
+      },
+      {
+        "name": "DoodStream",
+        "url": "https://doodstream.com"
+      },
+      {
+        "name": "vide0",
+        "url": "https://vide0.net"
+      },
+      {
+        "name": "dsio",
+        "url": "https://d-s.io"
+      },
+      {
+        "name": "Bigwarp",
+        "url": "https://bigwarp.io"
+      },
+      {
+        "name": "Bigwarp CC",
+        "url": "https://bigwarp.cc"
+      },
+      {
+        "name": "FileMoon",
+        "url": "https://filemoon.to"
+      },
+      {
+        "name": "TapePops",
+        "url": "https://tapepops.com"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/donatelloroberto/gayvn-cs/skystream/dist/com.donatelloroberto.repo.nurgay.sky"
+  }
+]

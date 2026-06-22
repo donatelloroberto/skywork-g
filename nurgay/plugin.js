@@ -12,12 +12,14 @@
   function abs(url, base) {
     if (!url) return "";
     url = String(url).replace(/&amp;/g, "&").trim();
-    if (!url || url === "#") return "";
+    if (!url || url === "#" || url.startsWith("javascript:")) return "";
     if (url.startsWith("//")) return "https:" + url;
     if (/^https?:\/\//i.test(url)) return url;
-    const root = (base || baseUrl()).replace(/\/$/, "");
-    if (url.startsWith("/")) return root + url;
-    return root + "/" + url;
+    try {
+      return new URL(url, base || baseUrl() + "/").toString();
+    } catch (_) {
+      return "";
+    }
   }
 
   function hostOf(url) {

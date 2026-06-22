@@ -1,0 +1,21 @@
+{
+  "fixed": [
+    "repo.json raw pluginLists URL",
+    "package.json deploy script",
+    "gxtapes absolute URL resolver",
+    "nurgay absolute URL resolver",
+    "bumped active plugins to version 3",
+    "generated dist .sky packages",
+    "disabled unfinished Pornhoarder template",
+    "added README and .gitignore",
+    "added GitHub Actions build workflow"
+  ],
+  "active_plugins": [
+    "gxtapes",
+    "nurgay"
+  ],
+  "disabled_plugins": [
+    "pornhoarder"
+  ],
+  "repo_url": "https://raw.githubusercontent.com/donatelloroberto/gayvn-cs/skystream/repo.json"
+}

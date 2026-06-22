@@ -4,9 +4,11 @@
   "description": "SkyStream plugins repository",
   "private": true,
   "scripts": {
-    "deploy": "skystream deploy -u https://raw.githubusercontent.com/USER_NAME/gayxxx/main/"
+    "deploy": "skystream deploy -u https://raw.githubusercontent.com/donatelloroberto/gayvn-cs/skystream/",
+    "test:gxtapes:home": "skystream test -p gxtapes -f getHome",
+    "test:nurgay:home": "skystream test -p nurgay -f getHome"
   },
-  "devDependencies": {
+  "dependencies": {
     "skystream-extractors": "^1.3.7"
   }
 }

@@ -1,11 +1,11 @@
 {
   "packageName": "com.donatelloroberto.repo.nurgay",
   "name": "Nurgay",
-  "version": 2,
+  "version": 3,
   "baseUrl": "https://nurgay.to",
   "description": "Nurgay SkyStream plugin converted from CloudStream source. NSFW provider with mirror extraction support.",
   "authors": [
-    "donatelloroberto"
+    "don"
   ],
   "languages": [
     "en"
@@ -15,15 +15,45 @@
   ],
   "iconUrl": "https://www.google.com/s2/favicons?domain=nurgay.to&sz=%size%",
   "domains": [
-    { "name": "Nurgay", "url": "https://nurgay.to" },
-    { "name": "ListMirror", "url": "https://listmirror.com" },
-    { "name": "Voe", "url": "https://jilliandescribecompany.com" },
-    { "name": "DoodStream", "url": "https://doodstream.com" },
-    { "name": "vide0", "url": "https://vide0.net" },
-    { "name": "dsio", "url": "https://d-s.io" },
-    { "name": "Bigwarp", "url": "https://bigwarp.io" },
-    { "name": "Bigwarp CC", "url": "https://bigwarp.cc" },
-    { "name": "FileMoon", "url": "https://filemoon.to" },
-    { "name": "TapePops", "url": "https://tapepops.com" }
+    {
+      "name": "Nurgay",
+      "url": "https://nurgay.to"
+    },
+    {
+      "name": "ListMirror",
+      "url": "https://listmirror.com"
+    },
+    {
+      "name": "Voe",
+      "url": "https://jilliandescribecompany.com"
+    },
+    {
+      "name": "DoodStream",
+      "url": "https://doodstream.com"
+    },
+    {
+      "name": "vide0",
+      "url": "https://vide0.net"
+    },
+    {
+      "name": "dsio",
+      "url": "https://d-s.io"
+    },
+    {
+      "name": "Bigwarp",
+      "url": "https://bigwarp.io"
+    },
+    {
+      "name": "Bigwarp CC",
+      "url": "https://bigwarp.cc"
+    },
+    {
+      "name": "FileMoon",
+      "url": "https://filemoon.to"
+    },
+    {
+      "name": "TapePops",
+      "url": "https://tapepops.com"
+    }
   ]
 }

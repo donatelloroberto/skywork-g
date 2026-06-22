@@ -1,45 +1,43 @@
-# 🌌 GayXXX
-GayXXX is an extension repo for [SkyStream](https://github.com/akashdh11/skystream). Follow the guide below to get started and set up your providers.
+# GayXXX SkyStream repository
 
-## 🚀 Getting Started
+This repository is structured as a SkyStream Gen 2 plugin repository.
 
-### 1. Installation
-To install SkyStream on your device, follow these steps:
+## Active plugins
 
-*   **Download:** Navigate to the [SkyStream releases page](https://github.com/akashdh11/skystream/releases/) and download the latest release for your platform.
-*   **Install:** Open the downloaded file and follow your system's installation prompts.
-*   **Launch:** Once installed, open the **SkyStream** app.
+- `gxtapes` / `G_Xtapes`
+- `nurgay` / `Nurgay`
 
----
+`Pornhoarder` was moved to `_disabled/pornhoarder` because it still contained only the default generated template and had no real provider/source code.
 
-## 🛠 Setting Up Extensions
-SkyStream uses a repository system to fetch plugins. Follow these steps to activate the app's content:
+## Repository URL
 
-1.  Open the app and navigate to **Settings**.
-2.  Select the **Manage Extensions** menu.
-3.  Click on the **Add Repository** button.
-4.  Enter the following Repository URL:
-    > **Repository URL:** `https://raw.githubusercontent.com/USER_NAME/REPO_NAME/main/repo.json`
-5.  Tap **Add**.
-6.  Wait for the list to populate, then **download** the desired plugins.
+Use this in SkyStream after pushing to the `skystream` branch:
 
----
+```text
+https://raw.githubusercontent.com/donatelloroberto/gayvn-cs/skystream/repo.json
+```
 
-## 📺 Using the App
-After you have installed your plugins, you need to toggle the providers to see content on your dashboard:
+## Build
 
-1.  Return to the **Home Screen**.
-2.  Change **Provider** (bottom right floating action button).
-3.  Switch to your newly installed providers to begin browsing.
+```powershell
+npm install
+skystream deploy -u https://raw.githubusercontent.com/donatelloroberto/gayvn-cs/skystream/
+```
 
----
+## Test examples
 
-## 🛠 Development
+```powershell
+skystream test -p gxtapes -f getHome
+skystream test -p gxtapes -f search -q "twink"
+skystream test -p gxtapes -f loadStreams -q "PASTE_GXTAPES_VIDEO_URL"
 
-To contribute to this repository or test locally:
+skystream test -p nurgay -f getHome
+skystream test -p nurgay -f search -q "twink"
+skystream test -p nurgay -f loadStreams -q "PASTE_NURGAY_VIDEO_URL"
+```
 
-1.  **Clone the repo**: `git clone https://github.com/USER_NAME/gayxxx.git`
-2.  **Install dependencies**: `npm install`
-3.  **Add/Update extractors**: `npm install skystream-extractors` (or `npm update skystream-extractors`)
-4.  **Test a plugin**: `skystream test -f loadStreams -q "https://example.com/video"`
-5.  **Deploy**: Push your changes to the `main` branch; the GitHub Action will automatically bundle and update the repository index.
+## Notes
+
+- `repo.json` now points to `dist/plugins.json` on the `skystream` branch.
+- The active plugin files use `manifest.baseUrl` through helper functions.
+- URL resolution was fixed to use `new URL(relative, base)` instead of unsafe string concatenation.

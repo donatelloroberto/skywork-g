@@ -1,18 +1,43 @@
 {
   "packageName": "com.donatelloroberto.repo.gxtapes",
   "name": "G_Xtapes",
-  "version": 2,
+  "version": 3,
   "baseUrl": "https://gay.xtapes.in",
   "description": "G_Xtapes SkyStream plugin converted from the CloudStream GXtapes provider. Includes homepage categories, search, metadata loading, recommendations, and extractor support for GXtapes, 88z.io, 44x.io, VID Xtapes, DoodStream and generic direct video links.",
-  "authors": ["donatelloroberto"],
-  "languages": ["en"],
-  "categories": ["NSFW"],
+  "authors": [
+    "don"
+  ],
+  "languages": [
+    "en"
+  ],
+  "categories": [
+    "NSFW"
+  ],
   "domains": [
-    { "name": "G_Xtapes", "url": "https://gay.xtapes.in" },
-    { "name": "VID Xtapes", "url": "https://vid.xtapes.in" },
-    { "name": "GXtapes CDN", "url": "https://74k.io/e/" },
-    { "name": "88z.io", "url": "https://88z.io" },
-    { "name": "44x.io", "url": "https://vi.44x.io" },
-    { "name": "DoodStream", "url": "https://doodstream.com" }
-  ]
+    {
+      "name": "G_Xtapes",
+      "url": "https://gay.xtapes.in"
+    },
+    {
+      "name": "VID Xtapes",
+      "url": "https://vid.xtapes.in"
+    },
+    {
+      "name": "GXtapes CDN",
+      "url": "https://74k.io/e/"
+    },
+    {
+      "name": "88z.io",
+      "url": "https://88z.io"
+    },
+    {
+      "name": "44x.io",
+      "url": "https://vi.44x.io"
+    },
+    {
+      "name": "DoodStream",
+      "url": "https://doodstream.com"
+    }
+  ],
+  "iconUrl": "https://www.google.com/s2/favicons?domain=gay.xtapes.in&sz=%size%"
 }
